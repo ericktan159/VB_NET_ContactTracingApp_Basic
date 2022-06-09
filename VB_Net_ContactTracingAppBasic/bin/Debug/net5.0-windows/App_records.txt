@@ -1,11 +1,11 @@
 Section 1: 
-Name: 	Frederick	B.	Tan
+Name: 	Fred	B.	Tan
 Age: 	25
 Contact Number: 	09123456789
-E-Mail: 	erixkt1n159@gmail.com
+E-Mail: 	ericktan159@gmail.com
 Gender: 	Male
-Date: 	Monday, June 6, 2022
-Barangay: 	San Roque
+Date: 	Thursday, June 9, 2022
+Barangay: 	San Roque 
 
 *Health Condition	
 If Has Fever: 	No
@@ -18,12 +18,12 @@ END_OF_SECTION_1
 
 
 Section 2: 
-Name: 	Fred	B.	Tan
+Name: 	Ercik	B.	Tan
 Age: 	25
 Contact Number: 	09123456789
 E-Mail: 	ericktan159@gmail.com
 Gender: 	Male
-Date: 	Monday, June 6, 2022
+Date: 	Thursday, June 9, 2022
 Barangay: 	San Roque
 
 *Health Condition	

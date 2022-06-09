@@ -65,6 +65,7 @@ Partial Class Form1
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HelpToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Label11 = New System.Windows.Forms.Label()
         Me.grpBxGender.SuspendLayout()
         Me.grpBxFever.SuspendLayout()
         Me.grpBxDryCough.SuspendLayout()
@@ -76,7 +77,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 45)
+        Me.Label1.Location = New System.Drawing.Point(9, 48)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(64, 15)
         Me.Label1.TabIndex = 0
@@ -85,7 +86,7 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(107, 72)
+        Me.Label2.Location = New System.Drawing.Point(93, 71)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(64, 15)
         Me.Label2.TabIndex = 1
@@ -94,7 +95,7 @@ Partial Class Form1
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(185, 77)
+        Me.Label3.Location = New System.Drawing.Point(197, 71)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(76, 15)
         Me.Label3.TabIndex = 2
@@ -112,7 +113,7 @@ Partial Class Form1
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(309, 77)
+        Me.Label5.Location = New System.Drawing.Point(301, 71)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(63, 15)
         Me.Label5.TabIndex = 4
@@ -121,7 +122,7 @@ Partial Class Form1
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(414, 48)
+        Me.Label6.Location = New System.Drawing.Point(401, 48)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(31, 15)
         Me.Label6.TabIndex = 5
@@ -130,7 +131,7 @@ Partial Class Form1
         'Label7
         '
         Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(12, 108)
+        Me.Label7.Location = New System.Drawing.Point(9, 93)
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(99, 15)
         Me.Label7.TabIndex = 6
@@ -139,7 +140,7 @@ Partial Class Form1
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Location = New System.Drawing.Point(12, 134)
+        Me.Label8.Location = New System.Drawing.Point(9, 128)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(34, 15)
         Me.Label8.TabIndex = 7
@@ -148,7 +149,7 @@ Partial Class Form1
         'Label9
         '
         Me.Label9.AutoSize = True
-        Me.Label9.Location = New System.Drawing.Point(363, 118)
+        Me.Label9.Location = New System.Drawing.Point(291, 98)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(44, 15)
         Me.Label9.TabIndex = 8
@@ -156,9 +157,9 @@ Partial Class Form1
         '
         'txtBxBarangay
         '
-        Me.txtBxBarangay.Location = New System.Drawing.Point(438, 152)
+        Me.txtBxBarangay.Location = New System.Drawing.Point(320, 125)
         Me.txtBxBarangay.Name = "txtBxBarangay"
-        Me.txtBxBarangay.Size = New System.Drawing.Size(100, 23)
+        Me.txtBxBarangay.Size = New System.Drawing.Size(218, 23)
         Me.txtBxBarangay.TabIndex = 9
         '
         'txtBxFirstName
@@ -170,21 +171,21 @@ Partial Class Form1
         '
         'txtBxContactNum
         '
-        Me.txtBxContactNum.Location = New System.Drawing.Point(161, 105)
+        Me.txtBxContactNum.Location = New System.Drawing.Point(114, 93)
         Me.txtBxContactNum.Name = "txtBxContactNum"
-        Me.txtBxContactNum.Size = New System.Drawing.Size(100, 23)
+        Me.txtBxContactNum.Size = New System.Drawing.Size(171, 23)
         Me.txtBxContactNum.TabIndex = 11
         '
         'txtBxEMail
         '
-        Me.txtBxEMail.Location = New System.Drawing.Point(429, 115)
+        Me.txtBxEMail.Location = New System.Drawing.Point(341, 94)
         Me.txtBxEMail.Name = "txtBxEMail"
-        Me.txtBxEMail.Size = New System.Drawing.Size(100, 23)
+        Me.txtBxEMail.Size = New System.Drawing.Size(197, 23)
         Me.txtBxEMail.TabIndex = 12
         '
         'txtBxAge
         '
-        Me.txtBxAge.Location = New System.Drawing.Point(451, 53)
+        Me.txtBxAge.Location = New System.Drawing.Point(438, 48)
         Me.txtBxAge.Name = "txtBxAge"
         Me.txtBxAge.Size = New System.Drawing.Size(100, 23)
         Me.txtBxAge.TabIndex = 13
@@ -205,14 +206,14 @@ Partial Class Form1
         '
         'dateDTP
         '
-        Me.dateDTP.Location = New System.Drawing.Point(85, 152)
+        Me.dateDTP.Location = New System.Drawing.Point(49, 122)
         Me.dateDTP.Name = "dateDTP"
         Me.dateDTP.Size = New System.Drawing.Size(200, 23)
         Me.dateDTP.TabIndex = 16
         '
         'btnSave
         '
-        Me.btnSave.Location = New System.Drawing.Point(179, 396)
+        Me.btnSave.Location = New System.Drawing.Point(220, 311)
         Me.btnSave.Name = "btnSave"
         Me.btnSave.Size = New System.Drawing.Size(75, 23)
         Me.btnSave.TabIndex = 17
@@ -221,16 +222,16 @@ Partial Class Form1
         '
         'btnViewRecords
         '
-        Me.btnViewRecords.Location = New System.Drawing.Point(759, 291)
+        Me.btnViewRecords.Location = New System.Drawing.Point(656, 311)
         Me.btnViewRecords.Name = "btnViewRecords"
-        Me.btnViewRecords.Size = New System.Drawing.Size(179, 23)
+        Me.btnViewRecords.Size = New System.Drawing.Size(93, 23)
         Me.btnViewRecords.TabIndex = 18
         Me.btnViewRecords.Text = "View Records"
         Me.btnViewRecords.UseVisualStyleBackColor = True
         '
         'btnClearDisplay
         '
-        Me.btnClearDisplay.Location = New System.Drawing.Point(1088, 291)
+        Me.btnClearDisplay.Location = New System.Drawing.Point(938, 311)
         Me.btnClearDisplay.Name = "btnClearDisplay"
         Me.btnClearDisplay.Size = New System.Drawing.Size(111, 23)
         Me.btnClearDisplay.TabIndex = 19
@@ -241,12 +242,12 @@ Partial Class Form1
         '
         Me.grpBxGender.Controls.Add(Me.rdBtnFemale_Gender)
         Me.grpBxGender.Controls.Add(Me.rdBtnMale_Gender)
-        Me.grpBxGender.Location = New System.Drawing.Point(574, 67)
+        Me.grpBxGender.Location = New System.Drawing.Point(544, 45)
         Me.grpBxGender.Name = "grpBxGender"
-        Me.grpBxGender.Size = New System.Drawing.Size(200, 100)
+        Me.grpBxGender.Size = New System.Drawing.Size(106, 103)
         Me.grpBxGender.TabIndex = 20
         Me.grpBxGender.TabStop = False
-        Me.grpBxGender.Text = "GroupBox1"
+        Me.grpBxGender.Text = "Gender"
         '
         'rdBtnFemale_Gender
         '
@@ -274,9 +275,9 @@ Partial Class Form1
         '
         Me.grpBxFever.Controls.Add(Me.rdBtnNo_Fever)
         Me.grpBxFever.Controls.Add(Me.rdBtnYes_Fever)
-        Me.grpBxFever.Location = New System.Drawing.Point(12, 260)
+        Me.grpBxFever.Location = New System.Drawing.Point(40, 208)
         Me.grpBxFever.Name = "grpBxFever"
-        Me.grpBxFever.Size = New System.Drawing.Size(187, 44)
+        Me.grpBxFever.Size = New System.Drawing.Size(214, 44)
         Me.grpBxFever.TabIndex = 21
         Me.grpBxFever.TabStop = False
         Me.grpBxFever.Text = "Are you experiencing Fever?"
@@ -305,16 +306,16 @@ Partial Class Form1
         '
         'rchTxtBxDisplayRecords
         '
-        Me.rchTxtBxDisplayRecords.Location = New System.Drawing.Point(780, 53)
+        Me.rchTxtBxDisplayRecords.Location = New System.Drawing.Point(656, 48)
         Me.rchTxtBxDisplayRecords.Name = "rchTxtBxDisplayRecords"
-        Me.rchTxtBxDisplayRecords.Size = New System.Drawing.Size(393, 210)
+        Me.rchTxtBxDisplayRecords.Size = New System.Drawing.Size(393, 257)
         Me.rchTxtBxDisplayRecords.TabIndex = 22
         Me.rchTxtBxDisplayRecords.Text = ""
         '
         'Label10
         '
         Me.Label10.AutoSize = True
-        Me.Label10.Location = New System.Drawing.Point(373, 152)
+        Me.Label10.Location = New System.Drawing.Point(255, 128)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(59, 15)
         Me.Label10.TabIndex = 23
@@ -324,7 +325,7 @@ Partial Class Form1
         '
         Me.grpBxDryCough.Controls.Add(Me.rdBtnNo_DryCough)
         Me.grpBxDryCough.Controls.Add(Me.rdBtnYes_DryCough)
-        Me.grpBxDryCough.Location = New System.Drawing.Point(220, 260)
+        Me.grpBxDryCough.Location = New System.Drawing.Point(270, 208)
         Me.grpBxDryCough.Name = "grpBxDryCough"
         Me.grpBxDryCough.Size = New System.Drawing.Size(225, 44)
         Me.grpBxDryCough.TabIndex = 22
@@ -357,7 +358,7 @@ Partial Class Form1
         '
         Me.grpBxSoreThroat.Controls.Add(Me.rdBtnNo_SoreThroat)
         Me.grpBxSoreThroat.Controls.Add(Me.rdBtnYes_SoreThroat)
-        Me.grpBxSoreThroat.Location = New System.Drawing.Point(12, 319)
+        Me.grpBxSoreThroat.Location = New System.Drawing.Point(40, 261)
         Me.grpBxSoreThroat.Name = "grpBxSoreThroat"
         Me.grpBxSoreThroat.Size = New System.Drawing.Size(214, 44)
         Me.grpBxSoreThroat.TabIndex = 22
@@ -390,7 +391,7 @@ Partial Class Form1
         '
         Me.grpBxTirediness.Controls.Add(Me.rdBtnNo_Tiredines)
         Me.grpBxTirediness.Controls.Add(Me.rdBtnYes_Tirediness)
-        Me.grpBxTirediness.Location = New System.Drawing.Point(232, 319)
+        Me.grpBxTirediness.Location = New System.Drawing.Point(270, 261)
         Me.grpBxTirediness.Name = "grpBxTirediness"
         Me.grpBxTirediness.Size = New System.Drawing.Size(226, 44)
         Me.grpBxTirediness.TabIndex = 23
@@ -424,7 +425,7 @@ Partial Class Form1
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(1271, 24)
+        Me.MenuStrip1.Size = New System.Drawing.Size(1082, 24)
         Me.MenuStrip1.TabIndex = 24
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -460,11 +461,21 @@ Partial Class Form1
         Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
         Me.AboutToolStripMenuItem.Text = "About"
         '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Location = New System.Drawing.Point(229, 174)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(106, 15)
+        Me.Label11.TabIndex = 25
+        Me.Label11.Text = "Health Conditions:"
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1271, 450)
+        Me.ClientSize = New System.Drawing.Size(1082, 366)
+        Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.grpBxDryCough)
         Me.Controls.Add(Me.grpBxSoreThroat)
         Me.Controls.Add(Me.grpBxTirediness)
@@ -556,4 +567,5 @@ Partial Class Form1
     Friend WithEvents ExitToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents HelpToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Label11 As Label
 End Class

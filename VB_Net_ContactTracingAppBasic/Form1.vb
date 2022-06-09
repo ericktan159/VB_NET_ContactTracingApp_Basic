@@ -2,10 +2,6 @@
 
 
 
-
-
-
-
 Public Class Form1
 
     Dim formContent As String = ""
@@ -299,4 +295,6 @@ Public Class Form1
     Private Sub rchTxtBxDisplayRecords_KeyDown(sender As Object, e As KeyEventArgs) Handles rchTxtBxDisplayRecords.KeyDown
         e.Handled = True
     End Sub
+
+
 End Class
